@@ -145,7 +145,7 @@ Note: for some reason if the app is clean, there is an issue with `nativescript.
 - Modified `addDependenciesFromNativeScriptPlugins` such that it reads the files from libs/core and adds them as a dependency . With this the widgets are copied correctly.
 
 - Modified `RuntimeHelper.java` such that on initialising the runtime, the base directory is the public folder in #2. . Metadata folder is also updated to point towards the same `public` folder as well as `internal`.
-```
+
 
 ## iOS
 
