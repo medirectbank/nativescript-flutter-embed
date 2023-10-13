@@ -1,0 +1,17 @@
+[
+    {
+        "name": "@nativescript/core",
+        "directory": "../../node_modules/@nativescript/core",
+        "dependencies": []
+    },
+    {
+        "name": "@nativescript/theme",
+        "directory": "../../node_modules/@nativescript/theme",
+        "dependencies": []
+    },
+    {
+        "name": "nativescript-vue",
+        "directory": "../../node_modules/nativescript-vue",
+        "dependencies": []
+    }
+]

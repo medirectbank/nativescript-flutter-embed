@@ -1,0 +1,3 @@
+/Users/Michael.DeGiovanni@medirect.com.mt/Projects/Flutter/fluttertest/android/app/src/main/assets/public/app/runtime.js
+/Users/Michael.DeGiovanni@medirect.com.mt/Projects/Flutter/fluttertest/android/app/src/main/assets/public/app/bundle.js
+/Users/Michael.DeGiovanni@medirect.com.mt/Projects/Flutter/fluttertest/android/app/src/main/assets/public/app/vendor.js
