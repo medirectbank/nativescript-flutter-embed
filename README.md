@@ -133,9 +133,19 @@ The `commons` folder contains a script which copies the necessary build componen
 
 Note: for some reason if the app is clean, there is an issue with `nativescript.build.gradle` on lines 603-605. comment them out on first build and then uncomment. This works 🤷🏽‍♂️
 
-### Run Flutter
 
 
+### Advanced Details
+
+
+- Modified nativescript.build.gralde to have def INPUT_JS_DIR = `$projectDir/src/main/assets/public/app` instead of directly `$projectDir/src/main/assets/` . For some reason flutter omits on runtime the app folder
+
+- added `libs/core/core.aar` and `libs/core/widgets-release.aar` (since here i dont have a parent user app folder) . these are copied over as well. This needs to be modified to read the dependencies from the project itself
+
+- Modified `addDependenciesFromNativeScriptPlugins` such that it reads the files from libs/core and adds them as a dependency . With this the widgets are copied correctly.
+
+- Modified `RuntimeHelper.java` such that on initialising the runtime, the base directory is the public folder in #2. . Metadata folder is also updated to point towards the same `public` folder as well as `internal`.
+```
 
 ## iOS
 
